@@ -41,6 +41,7 @@
   ```json
   {
       "name": "product_name",
+       "quantity":4,
       "price": 123.45,
       "category": {
           "id": 1 // Reference an existing category ID
@@ -62,6 +63,7 @@
   ```json
   {
       "name": "updated_product_name",
+      "quantity":4,
       "price": 150.00,
       "category": {
           "id": 2 // Reference an existing category ID
